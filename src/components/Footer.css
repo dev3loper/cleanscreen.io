@@ -1,0 +1,19 @@
+.footer {
+  height: 28px;
+  background-color: #00adb5;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.copyright {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}

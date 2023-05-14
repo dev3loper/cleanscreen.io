@@ -1,0 +1,42 @@
+.custom-nav {
+  background-color: #222831;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.logo-white {
+  color: black;
+  z-index: 99;
+  position: relative;
+  margin: 0 2px;
+  padding: 0 2px;
+}
+
+.logo-monitor {
+  position: absolute !important;
+  top: -10px;
+  left: -2px;
+  right: -2px;
+  padding-top: 56.25%;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  z-index: -99;
+  border: 3px solid black;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 1.75rem;
+    margin-bottom: 4px;
+  }
+  .logo-monitor {
+    top: -8px;
+  }
+}

@@ -1,0 +1,101 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #eeeeee !important;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex-grow: 1;
+}
+
+.full-screenable-node {
+  width: 100%;
+  height: 100%;
+}
+
+.homepage {
+  width: 100%;
+}
+
+.btn {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #222831;
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+p.warning {
+  color: red;
+}
+
+.screen {
+  overflow: hidden;
+  height: 0;
+  padding-top: 56.25%;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.screen:hover {
+  opacity: 0.8;
+}
+
+.screen.white {
+  background-color: white;
+}
+.screen.black {
+  background-color: black;
+}
+.screen.red {
+  background-color: red;
+}
+.screen.green {
+  background-color: green;
+}
+.screen.blue {
+  background-color: blue;
+}
+
+@media (max-width: 768px) {
+  .screens-holder {
+    margin-left: -3px;
+    margin-right: -3px;
+  }
+
+  .screens-holder-col {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+
+.react-share__ShareButton {
+  transition: 0.3s all ease-in-out;
+}
+
+.react-share__ShareButton:hover {
+  opacity: 0.8;
+}
